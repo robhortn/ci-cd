@@ -6,7 +6,8 @@
   "scripts": {
     "start": "echo \"Error: no start step specified\" && exit 1",
     "build": "echo \"Error: no build step specified\" && exit 1",
-    "test": "echo \"Error: no test step specified\" && exit 1"
+    "test": "echo \"Error: no test step specified\" && exit 1",
+    "lint": "echo \"Error: no lint step specified\" && exit 1"
   },
   "repository": {
     "type": "git",
