@@ -3,6 +3,11 @@ variable "secret_key" {}
 variable "region" {
   default = "us-east-1"
 }
+
+variable "bucketname" {
+  default = "continuous-integration-bucket-test"
+}
+
 variable "amis" {
   type = "map"
   default = {
