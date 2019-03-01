@@ -17,6 +17,18 @@ resource "aws_instance" "example" {
 resource "aws_eip" "ip" {
   instance = "${aws_instance.example.id}"
 }
+
+resource "aws_s3_bucket" "continuous-integration-test-bucket" {
+  bucket = "continuous-integration-test-bucket"
+  acl    = "private"
+
+  tags = {
+    Name        = "continuous-integration-test-bucket"
+    Environment = "Dev"
+  }
+
+  region = "${var.region}"
+}
 output "ip" {
   value = "${aws_eip.ip.public_ip}"
 }
