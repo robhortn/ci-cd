@@ -1,0 +1,11 @@
+{
+  "name": "integrationapp",
+  "version": "1.0.0",
+  "description": "Test app for continuous integration learning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Horton",
+  "license": "MIT"
+}
