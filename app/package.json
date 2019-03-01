@@ -1,11 +1,20 @@
 {
-  "name": "integrationapp",
+  "name": "continuous-integration-app",
   "version": "1.0.0",
   "description": "Test app for continuous integration learning.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"Error: no start step specified\" && exit 1",
+    "build": "echo \"Error: no build step specified\" && exit 1",
+    "test": "echo \"Error: no test step specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robhortn/ci-cd.git"
   },
   "author": "Rob Horton",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "^7.3.4"
+  }
 }
